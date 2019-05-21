@@ -28,5 +28,5 @@ Hierin maakte ik eerst gebruik van Node-Red, een programmeer tool om bepaalde ac
 
 Er werd gestart aan het schrijven van een NodeJS programma om data te publishen naar de MQTT broker. Hiervoor werd er met een mqtt library gewerkt, waar we gemakkelijk konden acties uitvoeren op connect, disconnect, subscribe, publish, ...
 Door naar een bepaalde topic te publishen waar de connector ook op gesubscribed was, kon er gemakkelijk data naar de Waylay broker verstuurd worden. De data zelf kwam van de GrovePi sensoren, een licht- en geluidssensor. Deze data werd in een payload geplaatst met als resource naam de Raspberry Pi zelf en vervolgens doorgestuurd.
-Ook kon er gesubscribed worden op een bepaalde topic va de MQTT broker, om data te verkrijgen waarmee bv. een led-lampje kon mee aangestoken worden.
+Ook kon er gesubscribed worden op een bepaalde topic van de MQTT broker, om data te verkrijgen waarmee bv. een led-lampje kon mee aangestoken worden.
 Waar deze eerste implementatie al goed was, moest er natuurlijk nog meer gekeken worden naar het opvangen van de verschillende connecties en aantal messages.
